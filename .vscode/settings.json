@@ -1,0 +1,53 @@
+{
+  "code-runner.executorMap": {
+    "typescript": "npx ts-node --files",
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "Babel Javascript",
+    "typescript",
+    "typescriptreact",
+  ],
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For TSLint
+    "source.fixAll.tslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
+}
+
+  }
+
+  // "workbench.colorCustomizations": {
+  //   "terminal.background": "#040a1fb2", //!changed
+  //   "terminal.foreground": "#065a82", //!changed LETRA PADRAO
+  //   "terminalCursor.foreground": "#20bf55", //!changed cursor
+  //   "terminal.ansiBlack": "#231F20",
+  //   "terminal.ansiBlue": "#009DDC",
+  //   "terminal.ansiBrightBlack": "#737171",
+  //   "terminal.ansiBrightBlue": "#009DDC",
+  //   "terminal.ansiBrightCyan": "#85CEBC",
+  //   "terminal.ansiBrightGreen": "#00853E", //sucess
+  //   "terminal.ansiBrightMagenta": "#98005D",
+  //   "terminal.ansiBrightRed": "#EE2E24",
+  //   "terminal.ansiBrightWhite": "#714674", //./SDSDAS/asdaasds
+  //   "terminal.ansiBrightYellow": "#368f8b", // letra de escrita
+  //   "terminal.ansiCyan": "#f67e7d", //strings ''
+  //   "terminal.ansiGreen": "#0fe673",
+  //   "terminal.ansiMagenta": "#98005D",
+  //   "terminal.ansiRed": "#9b2019",
+  //   "terminal.ansiWhite": "#D9D8D8",
+  //   "terminal.ansiYellow": "#FFD204",
+  //   "terminal.selectionBackground": "#c75146",
+  //   "terminalCursor.background": "#ff0000"
+  // }
+}

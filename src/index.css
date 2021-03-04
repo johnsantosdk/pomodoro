@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background: cyan;
+  transition: background-color 300ms ease-in-out;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 648px;
+  margin: 0 auto;
+}
+
+.working {
+  background: crimson;
+}
+
+.hidden {
+  display: none;
+}
+
+.pomodoro {
+  background: #ffffff;
+  margin: 50px 20px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.pomodoro h2 {
+  font-size: 20pt;
+  text-align: center;
+}
+
+.pomodoro .timer {
+  font-size: 6rem;
+  color: #314e52;
+  text-align: center;
+}
+
+.pomodoro .controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pomodoro .buttonnn {
+  background: cyan;
+  border: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  color: #000;
+  transition: background-color 300ms ease-on-out;
+  margin: 20 px auto;
+}
+
+.pomodoro .details {
+  margin: 20px 0;
+  color: #17706e;
+}
